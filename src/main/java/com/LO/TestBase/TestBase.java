@@ -23,7 +23,7 @@ public class TestBase {
             driver = new InternetExplorerDriver();
         }
         else if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "src/test/java/LO/Test/chromedriver.exe"); // Ensure this path is correct
+            System.setProperty("webdriver.chrome.driver", "src/test/java/LO/Test/chrome.exe"); // Ensure this path is correct
             driver = new ChromeDriver();
         }	 
         else if (browser.equalsIgnoreCase("firefox")) {
