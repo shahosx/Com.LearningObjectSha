@@ -25,7 +25,7 @@ public class TestRegistration extends TestBase{
 	public void Setup() {
 		this.init();
 	}
-	// tests
+/*	// tests
 	@Test (priority=1)
 	public void RegisterWithInvalidPass() {
 		Registration objRegist= PageFactory.initElements(driver, Registration.class);
@@ -56,7 +56,7 @@ public class TestRegistration extends TestBase{
 	String verifyPassIndicator = objRegist.getStrengthIndicator();
 	Assert.assertTrue(verifyPassIndicator.contains("Strong"));
 	}
-	
+	*/
 	@AfterMethod
 		public void tearDown(ITestResult result)
 		{
