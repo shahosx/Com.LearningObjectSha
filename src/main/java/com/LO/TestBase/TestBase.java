@@ -11,8 +11,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class TestBase {
 	
 	public WebDriver driver;
-	String url = "http://demoqa.com/registration";
-	String browser = "firefox";
+	String url = "https://demoqa.com/registration";
+	String browser = "chrome";
 	
 	public void init () {
 	selectBrowser(browser);
